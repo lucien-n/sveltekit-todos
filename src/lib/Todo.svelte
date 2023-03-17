@@ -27,7 +27,7 @@
 	}
 </script>
 
-<div id="todo-{todo.id}" class="flex">
+<div id="todo-{todo.id}" class="flex w-full">
 	<div
 		class="flex mx-auto p-2 h-fit border-2 border-black "
 		class:opacity-30={todo.completed}
