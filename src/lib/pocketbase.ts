@@ -1,7 +1,7 @@
 import PocketBase from 'pocketbase';
 import { goto } from '$app/navigation';
 
-const url = 'http://127.0.0.1:8090/';
+const url = 'https://todos.pockethost.io';
 export const pb = new PocketBase(url);
 
 export async function signInWithEmailAndPassword(
